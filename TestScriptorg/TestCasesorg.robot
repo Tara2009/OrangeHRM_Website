@@ -23,7 +23,7 @@ Search SystemUsers
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]
     # ClickText        //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div
     Sleep              2s
-    #ClickText          ESS
+    ClickText          ESS
     Sleep              2s
     TypeText           //div[@class\='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']//input    Nalim R P
     Sleep              2s
