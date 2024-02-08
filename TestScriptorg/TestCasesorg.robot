@@ -16,8 +16,9 @@ Search SystemUsers
     Appstate           Home
     ClickText          Admin
     TypeText           //div[@class\='oxd-form-row']//input[@class\='oxd-input oxd-input--active']    Harshil
-    DropDown           //div[@class\='oxd-select-wrapper']                        ESS
+    #DropDown           //div[@class\='oxd-select-wrapper']                        ESS
     #TypeText           \"User\ Role\"                        ESS
+    PickList            //div[@class\='oxd-select-wrapper']                        ESS
     ClickText          Search
     Sleep              3s
 
