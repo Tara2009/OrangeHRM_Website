@@ -21,7 +21,7 @@ Search SystemUsers
     #PickList          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]    ESS
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[1] 
    # ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div   
-    #ClickText          Admin
+    ClickText          Admin
     ClickText          Search
     Sleep              3s
 
