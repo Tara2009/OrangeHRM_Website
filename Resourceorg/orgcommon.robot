@@ -32,7 +32,7 @@ Login
     GoTo                        ${login_url}
     TypeText                    Username                    ${username}                 delay=1
     TypeText                    Password                    ${password}
-    ClickText                   Log In
+    ClickText                   Login
     # We'll check if variable ${secret} is given. If yes, fill the MFA dialog.
     # If not, MFA is not expected.
     # ${secret} is ${None} unless specifically given.
@@ -63,8 +63,8 @@ Fill MFA
 Home
     [Documentation]             Navigate to homepage, login if needed
     GoTo                        ${home_url}
-   # ${login_status} =           IsText                      To access this page, you have to log in to Salesforce.                              2
-    #Run Keyword If              ${login_status}             Login
+    ${login_status} =           IsText                      Login                              2
+    Run Keyword If              ${login_status}             Login
     ClickText                    Admin
     #VerifyTitle                 Home | Salesforce
 
