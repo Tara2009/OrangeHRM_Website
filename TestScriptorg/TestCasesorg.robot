@@ -20,7 +20,7 @@ Search SystemUsers
     #TypeText          \"User\ Role\"              ESS
     #PickList          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]    ESS
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]    
-    ClickText          ESS
+    ClickText          Admin
     ClickText          Search
     Sleep              3s
 
