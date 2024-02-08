@@ -16,10 +16,10 @@ Search SystemUsers
     Appstate           Home
     ClickText          Admin
     TypeText           //div[@class\='oxd-form-row']//input[@class\='oxd-input oxd-input--active']    Harshil
-    #DropDown           //div[@class\='oxd-select-wrapper']                        ESS
-    #TypeText           \"User\ Role\"                        ESS
-    #PickList            //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]            ESS
-    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]        ESS
+    #DropDown          //div[@class\='oxd-select-wrapper']    ESS
+    #TypeText          \"User\ Role\"              ESS
+    #PickList          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]    ESS
+    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]    ESS
     ClickText          Search
     Sleep              3s
 
