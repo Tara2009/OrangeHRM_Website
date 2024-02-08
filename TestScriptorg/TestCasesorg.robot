@@ -38,7 +38,7 @@ Performance mangerReviews
     TypeText           //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[1]/div/div[2]/div/div/input    ga
     ClickText          Garret                      White
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[2]/div/div[2]    Finance Manager
-    ClickText          Finance Manager
+    #ClickText          Finance Manager
     Sleep              3S
 
 
