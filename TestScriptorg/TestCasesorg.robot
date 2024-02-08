@@ -25,8 +25,10 @@ Search SystemUsers
     Sleep              2s
     ClickText          ESS
     Sleep              2s
-    TypeText           //div[@class\='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']//input    Nalim    R P
+    TypeText           //div[@class\='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']//input    Nalim R P
     Sleep              2s
     ClickText          Search
     Sleep              3s
 
+
+   
