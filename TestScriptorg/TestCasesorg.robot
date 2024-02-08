@@ -15,6 +15,7 @@ Search SystemUsers
     [Documentation]    Search system user for the grid
     Appstate           Home
     ClickText          Admin
+    TypeText           //div[@class\='oxd-form-row']//input[@class\='oxd-input oxd-input--active']    Harshil
+    ClickText          Search
     Sleep              3s
-    
-   
+
