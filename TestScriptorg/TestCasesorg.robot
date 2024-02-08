@@ -35,10 +35,14 @@ Performance mangerReviews
     [Documentation]    Performance Manager Reviews searching old Reviews
     ClickText          Performance
     ClickText          Manage Reviews
-    TypeText           //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[1]/div/div[2]/div/div/input    ga
-    ClickText          Garret                      White
+    TypeText           //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[1]/div/div[2]/div/div/input    sa
+    ClickText          Sania  Shaheen
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[2]/div/div[2]    Finance Manager
     #ClickText          Finance Manager
+    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[3]/div/div[2]           Development
+    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[4]/div/div[2]/div/div    Current and Past Employees
+    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[5]/div/div[2]            In Progress
+    ClickText          Search
     Sleep              3S
 
 
