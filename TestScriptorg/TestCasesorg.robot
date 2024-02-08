@@ -14,5 +14,7 @@ Search SystemUsers
     [Tags]             Ssysusr
     [Documentation]    Search system user for the grid
     Appstate           Home
-    ClickText          Username                    manish
+    ClickText          Admin
     Sleep              3s
+    
+   
