@@ -16,6 +16,7 @@ Search SystemUsers
     Appstate           Home
     ClickText          Admin
     TypeText           //div[@class\='oxd-form-row']//input[@class\='oxd-input oxd-input--active']    Harshil
+    DropDown           //div[@class\='oxd-select-wrapper']                        ESS
     ClickText          Search
     Sleep              3s
 
