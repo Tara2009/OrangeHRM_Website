@@ -28,6 +28,9 @@ Search SystemUsers
     TypeText           //div[@class\='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']//input    Nalim R P
     Sleep              2s
     ClickText          Nalim R P
+    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[4]/div/div[2]
+    Sleep              2s
+    ClickText          Enabled
     ClickText          Search
     Sleep              3s
 
