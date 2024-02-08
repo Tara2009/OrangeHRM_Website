@@ -35,7 +35,7 @@ Performance mangerReviews
     [Documentation]        Performance Manager Reviews searching old Reviews
     ClickText              Performance
     ClickText              Manage Reviews
-    TypeText               //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[1]        ga
+    TypeText               //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[1]/div/div[2]        ga
     ClickText              Garret  White
     ClickText              //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[2]/div/div[2]        Finance Manager
     ClickText              Finance Manager
