@@ -40,6 +40,7 @@ Performance mangerReviews
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[2]/div/div[2]    Finance Manager
     ClickText          Finance Manager
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[3]/div/div[2]           Development
+    ClickText          Development
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[4]/div/div[2]/div/div    Current and Past Employees
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div[5]/div/div[2]            In Progress
     ClickText          Search
