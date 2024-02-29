@@ -15,15 +15,15 @@ Search SystemUsers
     [Documentation]    Search system user for the grid
     Appstate           Home
     ClickText          Admin
-    TypeText           //div[@class\='oxd-form-row']//input[@class\='oxd-input oxd-input--active']    nalim
+    TypeText           //div[@class\='oxd-form-row']//input[@class\='oxd-input oxd-input--active']    RoseMerry53
     Sleep              2s
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]
     Sleep              2s
     ClickText          ESS
     Sleep              2s
-    TypeText           //div[@class\='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']//input    Nalim R P
+    TypeText           //div[@class\='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']//input    Rose Thomas
     Sleep              2s
-    ClickText          Nalim R P
+    ClickText          Rose Thomas
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[4]/div/div[2]
     Sleep              2s
     ClickText          Enabled
